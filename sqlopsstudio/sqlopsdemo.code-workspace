@@ -1,0 +1,159 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"datasource.connectionGroups": [
+			{
+				"name": "Production",
+				"id": "dcf86b59-a4ac-4543-b821-4c8a11a19044",
+				"parentId": "C777F06B-202E-4480-B475-FA416154D458",
+				"color": "#4452A6",
+				"description": ""
+			},
+			{
+				"name": "Development",
+				"id": "a22cf924-0c82-4a6f-82da-f6b0696606f7",
+				"parentId": "C777F06B-202E-4480-B475-FA416154D458",
+				"color": "#914576",
+				"description": ""
+			},
+			{
+				"name": "Test",
+				"id": "8a09eb49-dad7-4ffe-8d48-71cc4fd30faf",
+				"parentId": "C777F06B-202E-4480-B475-FA416154D458",
+				"color": "#85AE72",
+				"description": ""
+			}
+		],
+		"datasource.connections": [
+			{
+				"options": {
+					"server": "SqlNode01",
+					"database": "",
+					"authenticationType": "Integrated",
+					"user": "",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "dcf86b59-a4ac-4543-b821-4c8a11a19044",
+					"databaseDisplayName": ""
+				},
+				"groupId": "dcf86b59-a4ac-4543-b821-4c8a11a19044",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "e626d408-e324-4666-8a01-6bed45328a80"
+			},
+			{
+				"options": {
+					"server": "sqlnode02",
+					"database": "",
+					"authenticationType": "Integrated",
+					"user": "",
+					"password": "",
+					"applicationName": "sqlops",
+					"groupId": "dcf86b59-a4ac-4543-b821-4c8a11a19044",
+					"databaseDisplayName": ""
+				},
+				"groupId": "dcf86b59-a4ac-4543-b821-4c8a11a19044",
+				"providerName": "MSSQL",
+				"savePassword": true,
+				"id": "0f322c04-d77e-40a1-a670-e4cee47e2ff5"
+			}
+		],
+		"workbench.colorTheme": "Default Dark SQL Operations Studio",
+		"dashboard.server.widgets": [
+			{
+				"name": "Tasks",
+				"widget": {
+					"tasks-widget": {}
+				},
+				"gridItemConfig": {
+					"sizex": 1,
+					"sizey": 1
+				}
+			},
+			{
+				"gridItemConfig": {
+					"sizex": 1,
+					"sizey": 2
+				},
+				"widget": {
+					"explorer-widget": {}
+				}
+			},
+			{
+				"widget": {
+					"backup-history-server-insight": {
+						"cacheId": "0c7cba8b-c87a-4bcc-ae54-2f40a5503a90"
+					}
+				}
+			},
+			{
+				"widget": {
+					"all-database-size-server-insight": {
+						"cacheId": "1d7cba8b-c87a-4bcc-ae54-2f40a5503a90"
+					}
+				}
+			},
+			{
+				"name": "Top 10 Waits",
+				"widget": {
+					"mssql-instance-waits": null
+				}
+			},
+			{
+				"name": "XEL System Stats",
+				"widget": {
+					"mssql-instance-xelsystem": null
+				}
+			},
+			{
+				"name": "XEL IO Stats",
+				"widget": {
+					"mssql-instance-xelio": null
+				}
+			},
+			{
+				"name": "XEL Memory Stats",
+				"widget": {
+					"mssql-instance-xelmemory": null
+				}
+			}
+		],
+		"dashboard.database.widgets": [
+			{
+				"name": "Tasks",
+				"gridItemConfig": {
+					"sizex": 1,
+					"sizey": 1
+				},
+				"widget": {
+					"tasks-widget": {}
+				}
+			},
+			{
+				"gridItemConfig": {
+					"sizex": 1,
+					"sizey": 2
+				},
+				"widget": {
+					"explorer-widget": {}
+				}
+			},
+			{
+				"name": "DB Space Used",
+				"widget": {
+					"mssql-db-spaceused": null
+				}
+			},
+			{
+				"name": "DB Space Used (by filetype)",
+				"widget": {
+					"mssql-db-spaceused-filetype": null
+				}
+			}
+		]
+	}
+}
