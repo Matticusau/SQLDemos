@@ -1,0 +1,65 @@
+[
+  {
+    "PersonID": "1",
+    "LastName": "Abercrombie",
+    "FirstName": "Kim",
+    "HireDate": "1995-03-11 00:00:00.000",
+    "EnrollmentDate": null
+  },
+  {
+    "PersonID": "4",
+    "LastName": "Fakhouri",
+    "FirstName": "Fadi",
+    "HireDate": "2002-08-06 00:00:00.000",
+    "EnrollmentDate": null
+  },
+  {
+    "PersonID": "5",
+    "LastName": "Harui",
+    "FirstName": "Roger",
+    "HireDate": "1998-07-01 00:00:00.000",
+    "EnrollmentDate": null
+  },
+  {
+    "PersonID": "18",
+    "LastName": "Zheng",
+    "FirstName": "Roger",
+    "HireDate": "2004-02-12 00:00:00.000",
+    "EnrollmentDate": null
+  },
+  {
+    "PersonID": "25",
+    "LastName": "Kapoor",
+    "FirstName": "Candace",
+    "HireDate": "2001-01-15 00:00:00.000",
+    "EnrollmentDate": null
+  },
+  {
+    "PersonID": "27",
+    "LastName": "Serrano",
+    "FirstName": "Stacy",
+    "HireDate": "1999-06-01 00:00:00.000",
+    "EnrollmentDate": null
+  },
+  {
+    "PersonID": "31",
+    "LastName": "Stewart",
+    "FirstName": "Jasmine",
+    "HireDate": "1997-10-12 00:00:00.000",
+    "EnrollmentDate": null
+  },
+  {
+    "PersonID": "32",
+    "LastName": "Xu",
+    "FirstName": "Kristen",
+    "HireDate": "2001-07-23 00:00:00.000",
+    "EnrollmentDate": null
+  },
+  {
+    "PersonID": "34",
+    "LastName": "Van Houten",
+    "FirstName": "Roger",
+    "HireDate": "2000-12-07 00:00:00.000",
+    "EnrollmentDate": null
+  }
+]
