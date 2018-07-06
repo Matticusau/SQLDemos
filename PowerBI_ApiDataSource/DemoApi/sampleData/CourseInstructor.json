@@ -1,0 +1,38 @@
+[
+  {
+    "CourseID": "1045",
+    "PersonID": "5"
+  },
+  {
+    "CourseID": "1050",
+    "PersonID": "1"
+  },
+  {
+    "CourseID": "1061",
+    "PersonID": "31"
+  },
+  {
+    "CourseID": "2021",
+    "PersonID": "27"
+  },
+  {
+    "CourseID": "2030",
+    "PersonID": "4"
+  },
+  {
+    "CourseID": "2042",
+    "PersonID": "25"
+  },
+  {
+    "CourseID": "4022",
+    "PersonID": "18"
+  },
+  {
+    "CourseID": "4041",
+    "PersonID": "32"
+  },
+  {
+    "CourseID": "4061",
+    "PersonID": "34"
+  }
+]
